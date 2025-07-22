@@ -5,7 +5,7 @@ const HomePage = () => (
     {/* Navbar */}
     <nav className="flex justify-between items-center py-6 bg-black/70 backdrop-blur-md rounded-xl shadow-lg" style={{marginLeft: 30, marginRight: 30, paddingLeft: 20, paddingRight: 20}}>
       <div className="flex items-center gap-6">
-        <img src="assets\vscode-logo.png" alt="Visual Studio Code Logo" className="w-10 h-10" />
+        <img src="vscode-logo.png" alt="Visual Studio Code Logo" className="w-10 h-10" />
         <span className="text-2xl font-bold text-white tracking-wide">Visual Studio Code</span>
         <div className="flex gap-4 ml-8">
           {['Docs', 'Updates', 'Blog', 'API', 'Extensions', 'FAQs', 'MCP'].map((item) => (
@@ -49,7 +49,7 @@ const HomePage = () => (
         <p className="text-gray-400 text-sm mt-1">By using VS Code, you agree to its license and privacy statement.</p>
       </section>
       <section className="flex justify-center mt-10">
-        <img src="/assets/home-screenshot.png" alt="Visual Studio Code Editor" className="w-4/5 max-w-4xl rounded-xl shadow-2xl border border-gray-800" />
+        <img src="home-screenshot.png" alt="Visual Studio Code Editor" className="w-4/5 max-w-4xl rounded-xl shadow-2xl border border-gray-800" />
       </section>
     </main>
 
