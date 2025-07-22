@@ -1,0 +1,6 @@
+{
+  "name": "Wave Grid Animation",
+  "description": "A dynamic grid of characters that animate in a wave-like pattern, fading in and out with shifting colors. This is a React and Tailwind CSS implementation of a classic coding animation effect.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
