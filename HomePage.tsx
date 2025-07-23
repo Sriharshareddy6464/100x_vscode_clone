@@ -3,7 +3,7 @@ import React from 'react';
 const HomePage = () => (
   <div className="relative z-10">
     {/* Navbar */}
-    <nav className="flex justify-between items-center py-6 bg-black/70 backdrop-blur-md rounded-xl shadow-lg" style={{marginLeft: 30, marginRight: 30, paddingLeft: 20, paddingRight: 20}}>
+    <nav className="flex justify-between items-center py-6 bg-black/70 backdrop-blur-md rounded-xl shadow-lg sticky top-0 z-30" style={{marginLeft: 40, marginRight: 40, paddingLeft: 50, paddingRight: 50,paddingBottom: 30}}>
       <div className="flex items-center gap-6">
         <img src="vscode-logo.png" alt="Visual Studio Code Logo" className="w-10 h-10" />
         <span className="text-2xl font-bold text-white tracking-wide">Visual Studio Code</span>
